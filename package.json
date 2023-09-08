@@ -1,7 +1,7 @@
 {
   "name": "express-ts-mongo-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A starter kit for building Node.js applications with Express, TypeScript, and MongoDB.",
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
@@ -9,7 +9,14 @@
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
   },
   "type": "module",
-  "author": "Yash Chouriya",
+  "author": {
+    "name": "Yash Chouriya",
+    "email": "yashchouriya131@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashChouriya/Express-TS-Mongo-Starter.git"
+  },
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
